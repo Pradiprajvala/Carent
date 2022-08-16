@@ -1,3 +1,7 @@
+*:focus {
+    outline: none;
+}
+
 .header{
     width: 100vw;
     height: 124px;
@@ -30,7 +34,7 @@
     flex: 1;
     max-width: 492px;
 }
-.search_container{
+.search__container{
     color: #3D5278;
     border: 1px solid #C3D4E9;
     border-width: 1px;
@@ -41,7 +45,7 @@
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    margin-right: 3rem;
+    margin-right: 2.5vw;
 }
 .header__search{
     background: transparent;
@@ -49,11 +53,15 @@
     width: 100%;
     font-size: 14px;
     min-width: 48px;
+    margin-left: 0.675vw;
     border: none;
 }
-.header__search :focus {
-    border: none;
+
+.search__container > input :focus{
+    outline: none;
+    background: red;
 }
+
 .header__feature{
     color: #3D5278;
     border: 1px solid #C3D4E9;

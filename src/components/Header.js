@@ -18,7 +18,7 @@ const Header = () => {
         <img className="header__logo" src={CarentLogo} />
         <div className='header__content'>
             <div className="header__middle">
-                <div className="search_container">
+                <div className="search__container">
                     <SearchIcon sx={{ fontSize: 24 }}/>
                     <input className='header__search' type="text" placeholder='Search something here'/>
                     <TuneIcon sx={{ fontSize: 24 }}/> 
